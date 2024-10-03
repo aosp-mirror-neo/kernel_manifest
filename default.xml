@@ -22,6 +22,7 @@
   <project name="kernel/google-modules/lwis" path="private/google-modules/lwis" />
   <project name="kernel/google-modules/nfc" path="private/google-modules/nfc" />
   <project name="kernel/google-modules/power/reset" path="private/google-modules/power/reset" />
+  <project name="kernel/google-modules/power/mitigation" path="private/google-modules/power/mitigation"  />
   <project name="kernel/google-modules/raviole-device" path="private/google-modules/soc/gs" >
     <linkfile src="build_slider.sh" dest="build_slider.sh"/>
     <linkfile src="device.bazelrc" dest="device.bazelrc"/>
