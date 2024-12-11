@@ -2,7 +2,7 @@
 <manifest>
     <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="android-gs-caimito-6.1-android15-qpr1"
+  <default revision="android-gs-comet-6.1-android15-qpr1"
     remote="aosp" sync-j="4" />
 
   <project path="aosp" name="kernel/common" groups="partner" >
