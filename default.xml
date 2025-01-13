@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/"/>
-  <default remote="aosp" revision="android-gs-raviole-mainline" sync-j="4"/>
+  <default remote="aosp" revision="android16-6.12-gs101" sync-j="4"/>
 
-  <superproject name="kernel/superproject" revision="gs-android-gs-raviole-mainline"/>
+  <superproject name="kernel/superproject" revision="gs-android16-6.12-gs101"/>
 
   <project name="kernel/build" path="build/kernel" revision="main" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
-  <project name="kernel/common" path="common" revision="android-mainline" />
+  <project name="kernel/common" path="common" revision="android16-6.12" />
   <project name="kernel/configs" revision="main" />
   <project name="kernel/google-modules/amplifiers" path="private/google-modules/amplifiers" />
   <project name="kernel/google-modules/aoc" path="private/google-modules/aoc" />
@@ -35,7 +35,7 @@
   <project name="kernel/google-modules/video/gchips" path="private/google-modules/video/gchips" />
   <project name="kernel/google-modules/wlan/bcmdhd/bcm4389" path="private/google-modules/wlan/bcmdhd4389" />
 
-  <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
+  <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" revision="android-gs-raviole-mainline" clone-depth="1"/>
 
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main" clone-depth="1"/>
   <project name="platform/build/bazel_common_rules" path="build/bazel_common_rules" revision="main" />
