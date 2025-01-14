@@ -12,7 +12,7 @@
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   <project path="common" name="kernel/common" revision="android14-5.15-2025-01" upstream="android14-5.15-2025-01" dest-branch="android14-5.15-2025-01" />
-  <project path="kernel/tests" name="kernel/tests" revision="bb56a7198b3e40c17fc91e6153352dadab81ba45" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="9a1bad62574d0ab44f47d93ef182bf276f13241c" upstream="main" dest-branch="main" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="android14-5.15" dest-branch="android14-5.15" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
@@ -20,8 +20,8 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="575a7c3fcc1bf77815687f4c3a843a4a0f3a9e7e" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="5bd68b89055630027338fa2d3749d12110538f7a" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="23f728a2f26f239a9ae52f56fb1613f52c04d1bd" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="ce0da80f66cde39edc5bcb12819275c0f7231261" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
