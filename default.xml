@@ -50,6 +50,7 @@
   <project name="platform/external/bazelbuild-rules_pkg" path="external/bazelbuild-rules_pkg" revision="main" clone-depth="1"/>
   <project name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="main" clone-depth="1"/>
   <project name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="main" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_shell" path="external/bazelbuild-rules_shell" revision="main" clone-depth="1"/>
   <project name="platform/external/libcap" path="external/libcap" revision="main" clone-depth="1"/>
   <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="main" clone-depth="1"/>
   <project path="external/lz4" name="platform/external/lz4" revision="main" clone-depth="1" />
