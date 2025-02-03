@@ -67,7 +67,6 @@
   <project path="external/obstack" name="platform/external/obstack" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" />
   <project path="external/python/six" name="platform/external/python/six" />
   <project path="external/selinux" name="platform/external/selinux" />
