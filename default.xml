@@ -41,37 +41,8 @@
   <project path="external/pigz" name="platform/external/pigz" />
   <project path="external/googletest" name="platform/external/googletest" />
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
-  <project path="external/rust/crates/arrayvec" name="platform/external/rust/crates/arrayvec" />
-  <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
-  <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" />
-  <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" />
-  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" />
-  <project path="external/rust/crates/downcast" name="platform/external/rust/crates/downcast" />
-  <project path="external/rust/crates/either" name="platform/external/rust/crates/either" />
-  <project path="external/rust/crates/fragile" name="platform/external/rust/crates/fragile" />
-  <project path="external/rust/crates/hex" name="platform/external/rust/crates/hex" />
-  <project path="external/rust/crates/itertools" name="platform/external/rust/crates/itertools" />
-  <project path="external/rust/crates/lazy_static" name="platform/external/rust/crates/lazy_static" />
-  <project path="external/rust/crates/lz4_flex" name="platform/external/rust/crates/lz4_flex" />
-  <project path="external/rust/crates/managed" name="platform/external/rust/crates/managed" />
-  <project path="external/rust/crates/mockall" name="platform/external/rust/crates/mockall" />
-  <project path="external/rust/crates/mockall_derive" name="platform/external/rust/crates/mockall_derive" />
-  <project path="external/rust/crates/predicates" name="platform/external/rust/crates/predicates" />
-  <project path="external/rust/crates/predicates-core" name="platform/external/rust/crates/predicates-core" />
-  <project path="external/rust/crates/predicates-tree" name="platform/external/rust/crates/predicates-tree" />
-  <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" />
-  <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" />
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
-  <project path="external/rust/crates/spin" name="platform/external/rust/crates/spin" />
-  <project path="external/rust/crates/static_assertions" name="platform/external/rust/crates/static_assertions" />
-  <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" />
-  <project path="external/rust/crates/termcolor" name="platform/external/rust/crates/termcolor" />
-  <project path="external/rust/crates/termtree" name="platform/external/rust/crates/termtree" />
   <project path="external/rust/crates/tinyjson" name="platform/external/rust/crates/tinyjson" />
-  <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" />
-  <project path="external/rust/crates/uuid" name="platform/external/rust/crates/uuid" />
-  <project path="external/rust/crates/zerocopy" name="platform/external/rust/crates/zerocopy" />
-  <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" />
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" />
