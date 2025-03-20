@@ -78,6 +78,5 @@
   <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" />
   <project path="tools/external_updater" name="platform/tools/external_updater" />
   <project path="tools/libufdt" name="platform/system/libufdt" />
-  <project path="tools/interceptor" name="kernel/tools/interceptor" />
 
 </manifest>
