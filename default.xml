@@ -36,7 +36,6 @@
   <project path="external/lz4" name="platform/external/lz4" />
   <project path="external/pigz" name="platform/external/pigz" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
-  <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zopfli" name="platform/external/zopfli" />
