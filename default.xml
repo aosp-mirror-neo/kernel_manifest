@@ -31,9 +31,11 @@
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dtc" name="platform/external/dtc" />
   <project path="external/libufdt" name="platform/system/libufdt" />
+  <project path="external/open-dice" name="platform/external/open-dice" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/pigz" name="platform/external/pigz" />
