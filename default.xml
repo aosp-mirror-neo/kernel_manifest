@@ -2,7 +2,7 @@
 <manifest>
     <remote  name="aosp"
     fetch="https://android.googlesource.com/" />
-  <default revision="android-gs-caimito-6.1-android15-qpr1"
+  <default revision="android-gs-tegu-6.1-android15-d4"
     remote="aosp" sync-j="4" />
 
   <project path="aosp" name="kernel/common" groups="partner" >
@@ -16,18 +16,10 @@
     <linkfile dest="common/BUILD.bazel" src="kleaf/common.BUILD.bazel"/>
   </project>
   <project path="private/devices/google/zuma" name="kernel/devices/google/zuma" groups="partner" />
-  <project path="private/devices/google/shusky" name="kernel/devices/google/shusky" groups="partner,shusky" >
-    <linkfile dest="build_shusky.sh" src="build_shusky.sh"/>
-    <linkfile dest=".d4.bazelrc" src="device.bazelrc"/>
-  </project>
   <project path="private/devices/google/zumapro" name="kernel/devices/google/zumapro" groups="partner" />
-  <project path="private/devices/google/caimito" name="kernel/devices/google/caimito" groups="partner,caimito" >
-    <linkfile dest="build_caimito.sh" src="build_caimito.sh"/>
-    <linkfile dest=".d7.bazelrc" src="device.bazelrc"/>
-  </project>
-  <project path="private/devices/google/comet" name="kernel/devices/google/comet" groups="partner,comet" >
-    <linkfile dest="build_comet.sh" src="build_comet.sh"/>
-    <linkfile dest=".d8.bazelrc" src="device.bazelrc"/>
+  <project path="private/devices/google/tegu" name="kernel/devices/google/tegu" groups="partner,tegu" >
+    <linkfile dest="build_tegu.sh" src="build_tegu.sh"/>
+    <linkfile dest=".d9.bazelrc" src="device.bazelrc"/>
   </project>
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
   <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" />
@@ -39,6 +31,7 @@
   <project path="private/google-modules/display/samsung" name="kernel/google-modules/display/samsung" groups="partner" />
   <project path="private/google-modules/display/common" name="kernel/google-modules/display/common" groups="partner" />
   <project path="private/google-modules/display/panels/caimito" name="kernel/google-modules/display/panels/caimito" groups="partner" />
+  <project path="private/google-modules/display/panels/tegu" name="kernel/google-modules/display/panels/tegu" groups="partner" />
   <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" />
   <project path="private/google-modules/edgetpu/janeiro" name="kernel/google-modules/edgetpu/janeiro" groups="partner" />
   <project path="private/google-modules/edgetpu/rio" name="kernel/google-modules/edgetpu/rio" groups="partner" />
