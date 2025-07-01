@@ -61,7 +61,7 @@
   <project path="test/ltp" name="platform/external/ltp" />
 
   <!-- dependencies for GBL -->
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="f505dc286a07d789000e35b8c7f20532d77a3fdc" upstream="gbl-android16" dest-branch="gbl-android16" />
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="fe539e5bdd04ed6fd869408d23150b1230365e0c" upstream="gbl-android16" dest-branch="gbl-android16" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="9565b5ee790a4ae7acd0c6c04a2b3e0c7eeced3c" upstream="gbl-android16" dest-branch="gbl-android16" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
@@ -75,6 +75,6 @@
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
-  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" />
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="8e06e1900a87cb8eb666ed4cd92105f53ad87254" upstream="gbl-android16" dest-branch="gbl-android16" />
   <project path="system/core" name="platform/system/core" />
 </manifest>
