@@ -38,6 +38,7 @@
 
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel" clone-depth="1"/>
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel" clone-depth="1" />
+  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/bazelbuild-bazel-central-registry" path="external/bazelbuild-bazel-central-registry" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/bazelbuild-platforms" path="external/bazelbuild-platforms" revision="main-kernel" clone-depth="1"/>
