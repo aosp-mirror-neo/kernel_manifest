@@ -20,6 +20,7 @@
     <linkfile src="kleaf/bzlmod/empty_BUILD.bazel" dest="common/BUILD.bazel" />
   </project>
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
+  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree"/>
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
