@@ -6,6 +6,7 @@
   <superproject name="kernel/superproject" revision="gs-android-gs-raviole-mainline"/>
 
   <project name="kernel/build" path="build/kernel" revision="main-kernel" >
+    <linkfile src="build_slider.sh" dest="build_slider.sh" />
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
