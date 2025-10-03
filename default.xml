@@ -20,7 +20,7 @@
   </project>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="36eddd03b5a22ede787579e0d628a9bbf8ce17be" upstream="android16-6.12" dest-branch="android16-6.12" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="fff3e9bcfd128dc03af3b11af9a6e86380ab657b" upstream="android16-6.12" dest-branch="android16-6.12" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
