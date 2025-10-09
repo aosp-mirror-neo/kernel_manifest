@@ -18,7 +18,6 @@
     <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
     <linkfile src="gbl/bazel.sh" dest="tools/bazel" />
   </project>
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
@@ -53,6 +52,5 @@
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
-  <project path="system/core" name="platform/system/core" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
