@@ -37,6 +37,7 @@
   <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
 
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel" clone-depth="1"/>
+  <project path="external/avb" name="platform/external/avb" revision="main-kernel" clone-depth="1" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel" clone-depth="1" />
   <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" revision="main-kernel" clone-depth="1" />
   <project path="external/bazel-contrib-supply-chain" name="platform/external/bazel-contrib-supply-chain" revision="main-kernel" clone-depth="1" />
