@@ -3,7 +3,7 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
   <default revision="main-kernel-2025" remote="aosp" sync-j="4"/>
 
-  <superproject name="kernel/superproject" remote="aosp" revision="build-tools"/>
+  <superproject name="kernel/superproject" remote="aosp" revision="build-tools-2025"/>
 
   <!-- build projects -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1"/>
