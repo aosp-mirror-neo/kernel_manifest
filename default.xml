@@ -13,6 +13,7 @@
   <project path="common" name="kernel/common" revision="android16-6.12-2026-03" upstream="android16-6.12-2026-03" dest-branch="android16-6.12-2026-03" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="4d23e052fa399fe45df5dfc74cda3a5a09386e81" upstream="android16-6.12" dest-branch="android16-6.12" />
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="9e39ceb100805d98e8cebbff2af92ba78e9d8d04" upstream="android16-6.12" dest-branch="android16-6.12" />
