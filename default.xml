@@ -16,6 +16,7 @@
     <linkfile src="gbl/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
     <linkfile src="gbl/bazel.sh" dest="tools/bazel" />
+    <linkfile src="gbl/gemini/root_gemini.md" dest="GEMINI.md" />
   </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
