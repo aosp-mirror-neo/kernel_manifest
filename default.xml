@@ -17,6 +17,7 @@
     <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
     <linkfile src="gbl/bazel.sh" dest="tools/bazel" />
   </project>
+  <project path="external/device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
