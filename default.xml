@@ -10,7 +10,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
   </project>
   <project path="common" name="kernel/common" revision="android17-6.18-2026-06" upstream="android17-6.18-2026-06" dest-branch="android17-6.18-2026-06" />
-  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="86ef5efc7d6534d8eb75c732c852a5bd53acff07" upstream="android17-6.18" dest-branch="android17-6.18" />
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="a65d973890da3140cda12b1a3c7e64bebc702d1b" upstream="android17-6.18" dest-branch="android17-6.18" />
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="6c4ec5627a4fe7f8ffe53e5fb53c4fcf4793e86e" upstream="android17-6.18" dest-branch="android17-6.18" />
@@ -61,7 +61,7 @@
   <project path="external/zstd" name="platform/external/zstd" groups="ddk" />
 
   <!-- dependencies for GBL -->
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="b70bb1690ae9801973baac94651bd89077f187a8" upstream="gbl-mainline" dest-branch="gbl-mainline" />
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="2bc6eaf6d4ee36ce3872f1df6f241297250fe3cc" upstream="gbl-android17" dest-branch="gbl-android17" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
@@ -71,7 +71,11 @@
   <project path="external/googletest" name="platform/external/googletest" />
   <project path="external/mtools" name="platform/external/mtools" />
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
-  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
-  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
-  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="35c2e878b0c3af33eb7bf769c9f8ecebc54e26ef" upstream="gbl-mainline" dest-branch="gbl-mainline" />
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="35c2e878b0c3af33eb7bf769c9f8ecebc54e26ef" upstream="gbl-android17" dest-branch="gbl-android17" />
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="adffd291a17b6c017e73fc6075b91044834f4a26" upstream="u-boot-android17" dest-branch="u-boot-android17" />
 </manifest>
