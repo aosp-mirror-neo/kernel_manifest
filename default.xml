@@ -40,6 +40,7 @@
   <project path="external/obstack" name="platform/external/obstack" />
   <project path="external/pigz" name="platform/external/pigz" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
+  <project path="external/stg" name="platform/external/stg" />
   <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zopfli" name="platform/external/zopfli" />
