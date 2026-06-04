@@ -60,6 +60,7 @@
   <project name="platform/external/obstack" path="external/obstack" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/pigz" path="external/pigz" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="main-kernel" clone-depth="1"/>
+  <project name="platform/external/stg" path="external/stg" revision="main-kernel" clone-depth="1" />
   <project path="external/toybox" name="platform/external/toybox" revision="main-kernel" clone-depth="1" />
   <project path="external/zstd" name="platform/external/zstd" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/zlib" path="external/zlib" revision="main-kernel" clone-depth="1"/>
