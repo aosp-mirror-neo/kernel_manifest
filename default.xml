@@ -19,6 +19,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/empty_BUILD.bazel" dest="common/BUILD.bazel" />
   </project>
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
   <project path="external/argp-standalone" name="platform/external/argp-standalone" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
   <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree"/>
@@ -39,6 +40,7 @@
   <project path="external/lz4" name="platform/external/lz4" />
   <project path="external/obstack" name="platform/external/obstack" />
   <project path="external/pigz" name="platform/external/pigz" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
   <project path="external/stg" name="platform/external/stg" />
   <project path="external/toybox" name="platform/external/toybox" />
