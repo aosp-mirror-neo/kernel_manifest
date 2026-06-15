@@ -16,7 +16,7 @@
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="529e4edbd01fb9d7c8ace1d006e0976145dcd728" upstream="android14-6.1" dest-branch="android14-6.1" />
-  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="223a7bfe43442c4d77eb2b00866b7b1603eee8aa" upstream="android14-6.1" dest-branch="android14-6.1" />
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="00da481edf6694757fac6db43b8306b26d24042f" upstream="android14-6.1" dest-branch="android14-6.1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
