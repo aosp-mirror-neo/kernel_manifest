@@ -16,7 +16,7 @@
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
-  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="4970f7da2211d9c928c8c19d8cfd041431d712f0" upstream="android15-6.6" dest-branch="android15-6.6" />
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="144825c631d444dc7219c7affaea3e717b27df4c" upstream="android15-6.6" dest-branch="android15-6.6" />
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="211d96f861e1d6061ecb6bbe6e289ce8bf144290" upstream="android15-6.6" dest-branch="android15-6.6" />
