@@ -65,7 +65,7 @@
   <project name="platform/external/stg" path="external/stg" revision="main-kernel" clone-depth="1" />
   <project path="external/toybox" name="platform/external/toybox" revision="main-kernel" clone-depth="1" />
   <project path="external/zstd" name="platform/external/zstd" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/zlib" path="external/zlib" revision="main-kernel" clone-depth="1"/>
+  <project name="platform/external/zlib-madler" path="external/zlib" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/zopfli" path="external/zopfli" revision="main-kernel" clone-depth="1"/>
   <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="main-kernel" clone-depth="1"/>
   <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="main-kernel" clone-depth="1"/>
