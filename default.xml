@@ -44,7 +44,7 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
   <project path="external/stg" name="platform/external/stg" />
   <project path="external/toybox" name="platform/external/toybox" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zlib" name="platform/external/zlib-madler" />
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zstd" name="platform/external/zstd"/>
   <project path="u-boot" name="platform/external/u-boot" revision="u-boot-mainline">
